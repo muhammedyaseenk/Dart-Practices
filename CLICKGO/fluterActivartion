@@ -1,0 +1,9 @@
+Go to fluter where installed Directory
+cd  cd .\Projects\env\Scripts\activate   
+
+set the path to your flutter sdk
+@REM set PATH=D:\flutter\bin;%PATH%
+ $env:Path += ";D:\Dart\flutter\bin"   
+
+ run it in crome 
+ Set-Location 'D:\Dart\CLICKGO\clickgo'; flutter pub get; flutter run -d chrome
